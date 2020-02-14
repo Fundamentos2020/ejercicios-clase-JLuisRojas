@@ -1,0 +1,42 @@
+* {
+    border: 2px solid black;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+li:hover {
+    background-color: red;
+}
+
+.pos_relative {
+    width: 75%;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    z-index: -1;
+}
+
+.padre {
+   width: 75%;
+}
+
+.hijo {
+    width: 50%;
+}
+
+.fijo {
+    width: 100px;
+    position: fixed;
+    right: 0px;
+    top: 50%;
+}
