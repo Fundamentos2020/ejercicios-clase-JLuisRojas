@@ -1,0 +1,30 @@
+@media (max width: 400px) {
+    #menu {
+        padding: 0px;
+        color: white;
+        background-color: black;
+    }
+}
+
+#menu li {
+    display: inline-block;
+    padding: 10px;
+    width: 100px;
+}
+
+#menu li:hover {
+    background-color: white;
+    color: black;
+}
+
+#contenedor {
+    border: 1px solid black;
+}
+
+#contenedor p {
+    color: blue;
+}
+
+#contenedor > p {
+    color: red;
+}
